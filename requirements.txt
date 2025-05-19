@@ -4,7 +4,7 @@ sentence-transformers
 faiss-cpu
 PyMuPDF
 python-multipart
-openai
+together
 python-dotenv
 requests       
 beautifulsoup4
