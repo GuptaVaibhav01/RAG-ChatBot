@@ -15,7 +15,7 @@ export default function App() {
     setInput("");
 
     try {
-      const res = await axios.post("http://localhost:8000/chat", { question: input });
+      const res = await axios.post("https://rag-chatbot-baqh.onrender.com", { question: input });
       const botMessage = { role: "bot", text: res.data.answer };
       setMessages((prev) => [...prev, botMessage]);
     } catch (err) {
