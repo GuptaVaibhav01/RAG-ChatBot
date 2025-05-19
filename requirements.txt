@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+PyMuPDF
+python-multipart
+openai
+python-dotenv
+requests       
+beautifulsoup4
+lxml
+python-docx 
+pydantic 
+transformers
+accelerate 
+bitsandbytes
